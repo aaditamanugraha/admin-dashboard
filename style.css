@@ -19,11 +19,11 @@ aside {
   color: var(--main-bg);
   height: 100vh;
   min-width: 250px;
-  padding: 20px;
+  padding: 0 20px;
 }
 
 aside > #logo > p {
-  margin: 0 0 32px 0;
+  margin: 20px 0 32px 0;
   font-size: 24px;
   font-weight: 600;
 }
@@ -47,6 +47,10 @@ aside > .menu > p > span {
 
 aside > .menu > p {
   margin: 8px;
+}
+
+aside > .settings {
+  margin-top: 48px;
 }
 
 .container > nav {
