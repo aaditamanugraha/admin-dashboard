@@ -4,7 +4,7 @@
   --main-color: #016a70;
   --secondary-color: #d2de32;
   --main-bg: #fff;
-  --secondary-bg: #c8c8c8;
+  --secondary-bg: #e4e4e4;
 }
 
 body {
@@ -53,9 +53,42 @@ aside > .settings {
   margin-top: 48px;
 }
 
-.container > .search {
-  background-color: var(--secondary-color);
+.container > .search-container {
+  background-color: var(--main-bg);
   height: 8vh;
+  padding: 0 30px;
+  display: flex;
+  align-items: center;
+}
+
+.container > .search-container > #search-right, #search-left {
+  display: flex;
+  align-items: center;
+}
+
+.container > .search-container a {
+  margin-right: 15px;
+  display: inline-flex;
+  text-decoration: none;
+  color: black;
+}
+
+.container > .search-container > #search-left > input {
+  background-color: var(--secondary-bg);
+  height: 30px;
+  /* width: 100%; */
+  margin-right: 32px;
+  border: none;
+  border-radius: 14px;
+  padding: 0 10px;
+}
+
+.container > .search-container > input:focus {
+  outline: none;
+}
+
+.container > .search-container > #search-right > h3 {
+  margin: 0;
 }
 
 .container > nav {
