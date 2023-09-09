@@ -53,6 +53,11 @@ aside > .settings {
   margin-top: 48px;
 }
 
+.container > .search {
+  background-color: var(--secondary-color);
+  height: 8vh;
+}
+
 .container > nav {
   background-color: var(--main-bg);
   height: 20vh;
@@ -60,5 +65,5 @@ aside > .settings {
 
 .container > main {
   background-color: var(--secondary-bg);
-  height: calc(100vh - 20vh);
+  height: calc(100vh - 28vh);
 }
