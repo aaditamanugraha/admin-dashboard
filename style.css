@@ -107,8 +107,7 @@ aside > .settings {
 .container > nav > .left-nav-container {
   display: flex;
   align-items: center;
-  width: 50%;
-
+  width: 100%;
 }
 
 .container > nav > .left-nav-container > img {
@@ -117,12 +116,12 @@ aside > .settings {
   margin-right: 12px;
 }
 
-.container > nav > .left-nav-container > .name-container > p, h3 {
+.container > nav > .left-nav-container > .name-container > p,
+h3 {
   margin: 0;
 }
 
 .container > nav > .nav-button {
-  width: 50%;
   display: flex;
   justify-content: flex-end;
 }
@@ -146,4 +145,9 @@ aside > .settings {
 .container > main {
   background-color: var(--secondary-bg);
   height: calc(100vh - 20vh);
+  padding: 0 30px;
+}
+
+.container > .left-main-container > .projects {
+  width: 50%;
 }
