@@ -151,14 +151,23 @@ h3 {
 
 .container > main > .left-main-container {
   width: 80%;
-  background-color: var(--main-color);
+}
+
+.container > main > .left-main-container > h4 {
+  margin: 12px 0;
+}
+
+.container > main > .left-main-container > .projects {
+  resize: both;
+  display: grid;
+  gap: 4px;
+  padding: 4px;
+  background-color: skyblue;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
 
 .container > main > .right-main-container {
   width: 20%;
   background-color: var(--secondary-color);
-}
-
-.container > .left-main-container > .projects {
-  width: 50%;
 }
