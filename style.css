@@ -144,8 +144,19 @@ h3 {
 
 .container > main {
   background-color: var(--secondary-bg);
-  height: calc(100vh - 20vh);
+  height: calc(100vh - 10vh - 9.7vh);
   padding: 0 30px;
+  display: flex;
+}
+
+.container > main > .left-main-container {
+  width: 80%;
+  background-color: var(--main-color);
+}
+
+.container > main > .right-main-container {
+  width: 20%;
+  background-color: var(--secondary-color);
 }
 
 .container > .left-main-container > .projects {
