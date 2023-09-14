@@ -5,6 +5,7 @@
   --secondary-color: #d2de32;
   --main-bg: #fff;
   --secondary-bg: #e4e4e4;
+  --font-secondary: #4b4b4b;
 }
 
 body {
@@ -161,7 +162,7 @@ h3 {
 .container > main > .left-main-container > .projects {
   resize: both;
   display: grid;
-  gap: 30px;
+  gap: 24px;
   grid-template-rows: repeat(2, 3fr);
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
@@ -217,11 +218,62 @@ h3 {
 
 .container > main > .right-main-container {
   width: 30%;
-  background-color: var(--secondary-color);
 }
 
 .container > main > .right-main-container > .announcements {
   height: 50%;
+}
+
+.container > main > .right-main-container > .announcements > h4 {
+  margin: 12px 0;
+}
+
+.container
+  > main
+  > .right-main-container
+  > .announcements
+  > .announcement-container {
+  background-color: var(--main-bg);
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.container
+  > main
+  > .right-main-container
+  > .announcements
+  > .announcement-container
+  > .announcement-card
+  > h5 {
+  margin: 0;
+}
+
+.container
+  > main
+  > .right-main-container
+  > .announcements
+  > .announcement-container
+  > .announcement-card
+  > p {
+  margin: 0;
+  font-size: 12px;
+  color: var(--font-secondary);
+}
+
+.container
+  > main
+  > .right-main-container
+  > .announcements
+  > .announcement-container
+  > .announcement-card
+  > hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid var(--font-secondary);
+  margin: 1em 0;
+  padding: 0;
 }
 
 .container > main > .right-main-container > .trending {
