@@ -162,13 +162,13 @@ h3 {
   resize: both;
   display: grid;
   gap: 30px;
-  padding: 4px 0 0 4px;
   grid-template-rows: repeat(2, 3fr);
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 .container > main > .left-main-container > .projects > .content-card {
   background-color: var(--main-bg);
+  padding: 12px;
 }
 
 .container > main > .left-main-container > .projects > .content-card > h4 {
@@ -199,6 +199,17 @@ h3 {
   > span {
   margin-left: 18px;
   color: black;
+}
+
+.container
+  > main
+  > .left-main-container
+  > .projects
+  > .content-card
+  > .content-icon
+  > a
+  > span:hover {
+  color: var(--main-color);
 }
 
 .container > main > .right-main-container {
