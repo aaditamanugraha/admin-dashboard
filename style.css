@@ -150,7 +150,8 @@ h3 {
 }
 
 .container > main > .left-main-container {
-  width: 80%;
+  width: 70%;
+  margin-right: 30px;
 }
 
 .container > main > .left-main-container > h4 {
@@ -160,14 +161,47 @@ h3 {
 .container > main > .left-main-container > .projects {
   resize: both;
   display: grid;
-  gap: 4px;
-  padding: 4px;
-  background-color: skyblue;
-  grid-template-rows: repeat(2, 1fr);
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 30px;
+  padding: 4px 0 0 4px;
+  grid-template-rows: repeat(2, 3fr);
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.container > main > .left-main-container > .projects > .content-card {
+  background-color: var(--main-bg);
+}
+
+.container > main > .left-main-container > .projects > .content-card > h4 {
+  margin: 0;
+}
+
+.container > main > .left-main-container > .projects > .content-card > p {
+  margin-bottom: 0;
+}
+
+.container
+  > main
+  > .left-main-container
+  > .projects
+  > .content-card
+  > .content-icon {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.container
+  > main
+  > .left-main-container
+  > .projects
+  > .content-card
+  > .content-icon
+  > a
+  > span {
+  margin-left: 18px;
+  color: black;
 }
 
 .container > main > .right-main-container {
-  width: 20%;
+  width: 30%;
   background-color: var(--secondary-color);
 }
