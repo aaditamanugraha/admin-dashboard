@@ -219,3 +219,11 @@ h3 {
   width: 30%;
   background-color: var(--secondary-color);
 }
+
+.container > main > .right-main-container > .announcements {
+  height: 50%;
+}
+
+.container > main > .right-main-container > .trending {
+  height: 50%;
+}
