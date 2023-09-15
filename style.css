@@ -217,11 +217,11 @@ h3 {
 }
 
 .container > main > .right-main-container {
-  width: 30%;
+  /* width: 30%; */
 }
 
 .container > main > .right-main-container > .announcements {
-  height: 50%;
+  /* height: 50%; */
 }
 
 .container > main > .right-main-container > .announcements > h4 {
@@ -237,6 +237,8 @@ h3 {
   padding: 12px;
   border-radius: 8px;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  height: 200px;
+  overflow: auto;
 }
 
 .container
