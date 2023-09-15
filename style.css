@@ -216,14 +216,6 @@ h3 {
   color: var(--main-color);
 }
 
-.container > main > .right-main-container {
-  /* width: 30%; */
-}
-
-.container > main > .right-main-container > .announcements {
-  /* height: 50%; */
-}
-
 .container > main > .right-main-container > .announcements > h4 {
   margin: 12px 0;
 }
@@ -278,6 +270,110 @@ h3 {
   padding: 0;
 }
 
-.container > main > .right-main-container > .trending {
-  height: 50%;
+.container > main > .right-main-container > .trending > h4 {
+  margin: 24px 0 12px 0;
+}
+
+.container > main > .right-main-container > .trending > .trending-container {
+  background-color: var(--main-bg);
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  height: 166px;
+  overflow: auto;
+}
+
+.container
+  > main
+  > .right-main-container
+  > .trending
+  > .trending-container
+  > .trending-card {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.container
+  > main
+  > .right-main-container
+  > .trending
+  > .trending-container
+  > .trending-card
+  > .profile-pict {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 6px;
+}
+
+.container
+  > main
+  > .right-main-container
+  > .trending
+  > .trending-container
+  > .trending-card
+  > .user-one {
+    background-image: url(https://cdn2.iconfinder.com/data/icons/portrait/145/portrait-07-512.png);
+    background-position: center center;
+    background-size: cover;
+  }
+
+  .container
+  > main
+  > .right-main-container
+  > .trending
+  > .trending-container
+  > .trending-card
+  > .user-two {
+    background-image: url(https://cdn2.iconfinder.com/data/icons/portrait/145/portrait-15-512.png);
+    background-position: center center;
+    background-size: cover;
+  }
+
+  .container
+  > main
+  > .right-main-container
+  > .trending
+  > .trending-container
+  > .trending-card
+  > .user-three {
+    background-image: url(https://cdn2.iconfinder.com/data/icons/portrait/145/portrait-03-512.png);
+    background-position: center center;
+    background-size: cover;
+  }
+
+  .container
+  > main
+  > .right-main-container
+  > .trending
+  > .trending-container
+  > .trending-card
+  > .user-four {
+    background-image: url(https://cdn2.iconfinder.com/data/icons/portrait/145/portrait-04-512.png);
+    background-position: center center;
+    background-size: cover;
+  }
+
+.container
+  > main
+  > .right-main-container
+  > .trending
+  > .trending-container
+  > .trending-card
+  > .username-trending-container
+  > h5 {
+  margin: 0 0 6px 0;
+}
+
+.container
+  > main
+  > .right-main-container
+  > .trending
+  > .trending-container
+  > .trending-card
+  > .username-trending-container
+  > p {
+  margin: 0;
 }
